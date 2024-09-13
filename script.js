@@ -1,7 +1,7 @@
 let currentPlayer = 'X';
-let music_x = new Audio("./assets/Music-X.mp3")
-let music_o = new Audio("./assets/Music-O.mp3")
-let music = new Audio("./assets/Music.mp3")
+let music_x = new Audio("./Music-X.mp3")
+let music_o = new Audio("./Music-O.mp3")
+let music = new Audio("./Music.mp3")
 let reset = document.getElementById("reset-btn");
 let volume = document.getElementById("volume-btn")
 let msg = document.getElementById("msg-box");
