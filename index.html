@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><i>Tic Tac Toe</i></h1>
+  <div class="board">
+    <div class="row">
+      <div class="cell" id="c-00" onclick="placeMark(0, 0)"></div>
+      <div class="cell" id="c-01" onclick="placeMark(0, 1)"></div>
+      <div class="cell" id="c-02" onclick="placeMark(0, 2)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" id="c-10" onclick="placeMark(1, 0)"></div>
+      <div class="cell" id="c-11" onclick="placeMark(1, 1)"></div>
+      <div class="cell" id="c-12" onclick="placeMark(1, 2)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" id="c-20" onclick="placeMark(2, 0)"></div>
+      <div class="cell" id="c-21" onclick="placeMark(2, 1)"></div>
+      <div class="cell" id="c-22" onclick="placeMark(2, 2)"></div>
+    </div>
+  </div>
+  <div>
+    <nav>
+      <br><br><br>
+    <button id="reset-btn"><img src="./assets/reset.svg" alt="reset"></button>
+    <button id="volume-btn"><img src="./assets/audio.svg" alt="play-pause"></button>
+    </nav>
+  </div>
+  <section>
+   <h1 id="msg-box"> </h1>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
